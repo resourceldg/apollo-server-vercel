@@ -1,0 +1,11 @@
+{
+	"name": "apollo-server-vercel",
+	"version": 2,
+	"scope": "saeris",
+  "functions": {
+    "api/example.ts": {
+      "maxDuration": 1,
+			"memory": 128
+    }
+  }
+}
